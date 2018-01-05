@@ -1,6 +1,11 @@
 
 # NMT
 
+### GOAL OF THIS PROJECT
+
+A network mapper / scanner for improving the pentesters/admin/engineers knowledge of local networks (maybe public soon).
+
+
 | Build status    |
 |------------|
 | [![pipeline status](https://gitlab.com/gbnk0/nmt/badges/develop/pipeline.svg)](https://gitlab.com/gbnk0/nmt/commits/develop) [![coverage report](https://gitlab.com/gbnk0/nmt/badges/develop/coverage.svg)](https://gitlab.com/gbnk0/nmt/commits/develop) [![pipeline status](https://img.shields.io/badge/Python-3.5%2C%203.6-blue.svg)](https://gitlab.com/gbnk0/nmt/commits/develop)|
