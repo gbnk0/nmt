@@ -1,4 +1,5 @@
-# NMT - NETWORK MAPPER TOOL
+
+# NMT
 
 | Build status    |
 |------------|
@@ -21,7 +22,7 @@ Go to localhost:8000 in your browser
 `admin/ password`
 
 
-## INSTALLATION (Assuming you're a developper)
+## INSTALLATION (DEV)
 ``` git clone git@gitlab.com:gbnk0/nmt.git ```
 ### DEVELOPEMENT ENV REQUIREMENTS
 - Minimum python version: 3.5
