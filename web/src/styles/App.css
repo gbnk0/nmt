@@ -1,0 +1,52 @@
+/* Base Application Styles */
+body {
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+}
+
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+
+
+.tabs-menu {
+  display: table;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-menu-item {
+  float: left;
+  margin-right: 20px;
+}
+
+.tabs-menu-item a {
+  cursor: pointer;
+  display: block;
+  color: #A9A9A9;
+}
+
+.tabs-menu-item:not(.is-active) a:hover,
+.tabs-menu-item.is-active a {
+  color: #3498DB;
+}
+
+.tab-panel {
+  padding: 10px 50px;
+}
+
+.tabs-navigation {
+  padding: 0 50px;
+}
+
+.tabs-panel {
+  padding: 50px;
+}

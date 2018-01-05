@@ -1,0 +1,15 @@
+Sanic_Cors==0.6.0.2
+attrdict==2.0.0
+netifaces==0.10.6
+nltk==3.2.5
+python-nmap
+python_json_logger==0.1.8
+requests==2.18.4
+rethinkdb==2.3.0.post6
+sanic==0.7.0
+sanic_openapi==0.4.0
+scapy_python3==0.21
+shortuuid==0.5.0
+termcolor==1.1.0
+textblob==0.13.0
+sanic_jwt

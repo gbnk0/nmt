@@ -1,0 +1,17 @@
+.navbar-component {
+    /*padding-top: 5px;*/
+    padding-bottom: 50px;
+
+}
+
+.navbar-component .ui .menu {
+    border-radius: 0;
+}
+
+.noradius {
+        border-radius: 0;
+}
+
+.navbar-header {
+    min-width: 12.85%;
+}

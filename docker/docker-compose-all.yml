@@ -1,0 +1,46 @@
+version: '3'
+services:
+  rethinkdb:
+    container_name: rethinkdb
+    image: "rethinkdb:latest"
+    ports:
+     - "28015:28015"
+     - "9090:8080"
+    volumes:
+      - RethinkDATA:/data
+    networks:
+      - core_net
+
+  core_api:
+    container_name: coreapi
+    build:
+      context: ../
+      dockerfile: docker/dockerfile-core
+    ports:
+      - "8080:8080"
+    networks:
+      - core_net
+      - front_net
+    depends_on:
+      - rethinkdb
+
+  web:
+    container_name: web
+    build:
+      context: ../
+      dockerfile: docker/dockerfile-web
+    ports:
+      - "8000:8000"
+    networks:
+      - front_net
+    depends_on:
+      - core_api
+      - rethinkdb
+
+volumes:
+  RethinkDATA:
+    driver: local
+
+networks:
+  core_net:
+  front_net:

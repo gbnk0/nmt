@@ -1,0 +1,18 @@
+version: '3'
+services:
+  rethinkdb:
+    image: "rethinkdb:latest"
+    ports:
+     - "28015:28015"
+     - "9090:8080"
+    volumes:
+      - RethinkDATA:/data
+    networks:
+      - core_net
+
+volumes:
+  RethinkDATA:
+    driver: local
+
+networks:
+  core_net:

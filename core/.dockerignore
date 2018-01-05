@@ -1,0 +1,13 @@
+docker/
+docker-compose.yml
+Dockerfile
+dockerfile-core
+dockerfile-web
+.dockerignore
+.gitignore
+README.md
+
+
+*/build
+*/node_modules
+
