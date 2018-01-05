@@ -8,7 +8,7 @@ A network mapper / scanner for improving the pentesters/admin/engineers knowledg
 
 | Build status    |
 |------------|
-| [![pipeline status](https://gitlab.com/gbnk0/nmt/badges/develop/pipeline.svg)](https://gitlab.com/gbnk0/nmt/commits/develop) [![coverage report](https://gitlab.com/gbnk0/nmt/badges/develop/coverage.svg)](https://gitlab.com/gbnk0/nmt/commits/develop) [![pipeline status](https://img.shields.io/badge/Python-3.5%2C%203.6-blue.svg)](https://gitlab.com/gbnk0/nmt/commits/develop)|
+| [![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)]() [![coverage report](https://gitlab.com/gbnk0/nmt/badges/develop/coverage.svg)](https://gitlab.com/gbnk0/nmt/commits/develop) [![pipeline status](https://img.shields.io/badge/Python-3.5%2C%203.6-blue.svg)](https://gitlab.com/gbnk0/nmt/commits/develop)|
 
 ## DOCUMENTATION
 [Jump to the documentation](https://gitlab.com/gbnk0/nmt/wikis/home)
