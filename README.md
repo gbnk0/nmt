@@ -14,7 +14,7 @@ A network mapper / scanner for improving the pentesters/admin/engineers knowledg
 
 
 ## DOCUMENTATION
-[Jump to the documentation](https://gitlab.com/gbnk0/nmt/wikis/home)
+[Jump to the documentation](https://github.com/gbnk0/nmt/wiki)
 
 
 #### QUICK START

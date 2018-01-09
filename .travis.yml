@@ -1,21 +1,5 @@
 jobs:
   include: 
-    - stage: API Tests
-      language: python
-      python:
-        - 3.5
-
-      before_script:
-        - pip3.5 install coverage
-        - pip3.5 install -r requirements.txt
-
-      script:
-        - coverage run -a shared/iftools.py
-        - coverage run -a shared/api_wrapper.py
-        - coverage run -a shared/dnstools.py
-        - coverage report
-        
-
     - stage: build-image-api
       script:
         - cp -rfp requirements.txt core/.
