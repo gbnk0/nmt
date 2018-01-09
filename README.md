@@ -6,9 +6,10 @@
 A network mapper / scanner for improving the pentesters/admin/engineers knowledge of local networks (maybe public soon).
 
 
-| Build status    |
-|------------|
-| [![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)]() | [![pipeline status](https://img.shields.io/badge/Python-3.5%2C%203.6-blue.svg)](https://gitlab.com/gbnk0/nmt/commits/develop)|
+
+[![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## DOCUMENTATION
 [Jump to the documentation](https://gitlab.com/gbnk0/nmt/wikis/home)
