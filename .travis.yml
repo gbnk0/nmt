@@ -1,14 +1,24 @@
 jobs:
   include: 
-    - stage: build-images
+    - stage: build-image-api
       script:
         - cp -rfp requirements.txt core/.
         - docker build -t $DOCKER_USER/nmt-api -f docker/dockerfile-core .
 
-after_success:
- - docker login -u $DOCKER_USER -p $DOCKER_PASS
- - docker tag $DOCKER_USER/nmt-api $DOCKER_USER/nmt-api:$TRAVIS_BUILD_NUMBER;
- - docker push $DOCKER_USER:$TRAVIS_BUILD_NUMBER;
- - docker push $DOCKER_USER/nmt-api:latest
- 
+      after_success:
+        - docker login -u $DOCKER_USER -p $DOCKER_PASS
+        - docker tag $DOCKER_USER/nmt-api $DOCKER_USER/nmt-api:$TRAVIS_BUILD_NUMBER;
+        - docker push $DOCKER_USER:$TRAVIS_BUILD_NUMBER;
+        - docker push $DOCKER_USER/nmt-api:latest
+
+
+    - stage: build-image-ui
+      script:
+        - docker build -t $DOCKER_USER/nmt-ui -f docker/dockerfile-web .
+
+      after_success:
+        - docker login -u $DOCKER_USER -p $DOCKER_PASS
+        - docker tag $DOCKER_USER/nmt-ui $DOCKER_USER/nmt-ui:$TRAVIS_BUILD_NUMBER;
+        - docker push $DOCKER_USER:$TRAVIS_BUILD_NUMBER;
+        - docker push $DOCKER_USER/nmt-ui:latest
  
