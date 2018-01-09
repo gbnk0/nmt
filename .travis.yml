@@ -4,8 +4,8 @@ script:
 
 after_success:
  - docker login -u $DOCKER_USER -p $DOCKER_PASS
-   docker tag $DOCKER_USER/nmt-api $DOCKER_USER/nmt-api:$TRAVIS_BUILD_NUMBER;
-   docker push $DOCKER_USER:$TRAVIS_BUILD_NUMBER;
+ - docker tag $DOCKER_USER/nmt-api $DOCKER_USER/nmt-api:$TRAVIS_BUILD_NUMBER;
+ - docker push $DOCKER_USER:$TRAVIS_BUILD_NUMBER;
  - docker push $DOCKER_USER/nmt-api:latest
  
  
