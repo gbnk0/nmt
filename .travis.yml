@@ -1,6 +1,9 @@
-script:
- - cp -rfp requirements.txt core/.
- - docker build -t $DOCKER_USER/nmt-api -f docker/dockerfile-core .
+jobs:
+  include: 
+    - stage: build-images
+      script:
+        - cp -rfp requirements.txt core/.
+        - docker build -t $DOCKER_USER/nmt-api -f docker/dockerfile-core .
 
 after_success:
  - docker login -u $DOCKER_USER -p $DOCKER_PASS
