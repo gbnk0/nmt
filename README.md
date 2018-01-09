@@ -9,6 +9,8 @@ A network mapper / scanner for improving the pentesters/admin/engineers knowledg
 
 [![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![python_version](https://img.shields.io/badge/python-3.5%2C3.6-blue.svg)]()
+
 
 
 ## DOCUMENTATION
