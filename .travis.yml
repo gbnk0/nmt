@@ -3,7 +3,7 @@ jobs:
     - stage: Tests
       language: python  
       python:  
-        - 3.5
+        - "3.5"
       install:  
         - pip3.5 install python-coveralls
         - pip3.5 install coverage
@@ -15,7 +15,7 @@ jobs:
         - coverage report
       after_success:  
         - coveralls
-        
+
     - stage: build-image-api
       script:
         - cp -rfp requirements.txt core/.
