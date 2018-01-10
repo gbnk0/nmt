@@ -19,7 +19,7 @@ A network mapper / scanner for improving the pentesters/admin/engineers knowledg
 [Jump to the documentation](https://github.com/gbnk0/nmt/wiki)
 
 
-#### QUICK START
+## QUICK START
 
 ```bash
 cd docker/
