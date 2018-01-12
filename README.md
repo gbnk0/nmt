@@ -1,8 +1,6 @@
 
 # NMT
 
-### GOAL OF THIS PROJECT
-
 A network mapper / scanner for improving the pentesters/admin/engineers knowledge of local networks (maybe public soon).
 
 
