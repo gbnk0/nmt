@@ -4,8 +4,8 @@ A network mapper / scanner for improving the pentesters/admin/engineers knowledg
 
 
 
-[![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt?ref=badge_shield)
-()
+![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt?ref=badge_shield)
 [![coverage](https://coveralls.io/repos/github/gbnk0/nmt/badge.svg?branch=develop)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![python_version](https://img.shields.io/badge/python-3.5%2C3.6-blue.svg)]()
