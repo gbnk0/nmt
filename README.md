@@ -5,10 +5,10 @@ A network mapper / scanner for improving the pentesters/admin/engineers knowledg
 
 
 ![pipeline status](https://travis-ci.org/gbnk0/nmt.svg?branch=develop)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt?ref=badge_shield)
-[![coverage](https://coveralls.io/repos/github/gbnk0/nmt/badge.svg?branch=develop)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![python_version](https://img.shields.io/badge/python-3.5%2C3.6-blue.svg)]()
+![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgbnk0%2Fnmt.svg?type=shield)
+![coverage](https://coveralls.io/repos/github/gbnk0/nmt/badge.svg?branch=develop)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![python_version](https://img.shields.io/badge/python-3.5%2C3.6-blue.svg)
 
 
 
@@ -24,10 +24,20 @@ cd docker/
 docker-compose -f docker-compose-all.yml up --build
 ```
 
-Go to localhost:8000 in your browser
+Go to localhost:8000 in your browser and login with the default credentials
+
+You can now add the first network to scan and launch the sensor:
+
+
+```bash
+sudo pip3 install -r requirements.txt
+cd sensor/
+python3 sensor.py
+```
+The scan process will take a time, depending on your sensor.conf config file.
 
 ##### DEFAULT CREDENTIALS
-`admin/ password`
+`admin / password`
 
 
 ## INSTALLATION (DEV)
