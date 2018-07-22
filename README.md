@@ -24,10 +24,20 @@ cd docker/
 docker-compose -f docker-compose-all.yml up --build
 ```
 
-Go to localhost:8000 in your browser
+Go to localhost:8000 in your browser and login with the default credentials
+
+You can now add the first network to scan and launch the sensor:
+
+
+```bash
+sudo pip3 install -r requirements.txt
+cd sensor/
+python3 sensor.py
+```
+The scan process will take a time, depending on your sensor.conf config file.
 
 ##### DEFAULT CREDENTIALS
-`admin/ password`
+`admin / password`
 
 
 ## INSTALLATION (DEV)
